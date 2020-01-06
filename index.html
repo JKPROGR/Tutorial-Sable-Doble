@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <h1>STAR WARS</h1>
+    <div class="container">
+        <img src="SABLE.png" id="img" alt="">
+        <div class="sable sable1" id="sable1"></div>
+        <div class="sable sable2" id="sable2"></div>
+    </div>
+
+    <script>
+
+let s1=document.getElementById('sable1'),
+s2 = document.getElementById('sable2'),
+img = document.getElementById('img')
+
+    
+    img.addEventListener('click',()=>{
+        s1.classList.toggle('efecto')
+        s2.classList.toggle('efecto')
+    })
+    
+    
+    </script>
+    
+</body>
+</html>

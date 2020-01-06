@@ -1,0 +1,59 @@
+body{
+    background-color: #000;
+    cursor: pointer;
+}
+
+.container{
+margin: 200px auto;
+height: 70px;
+width: 400px;
+}
+
+.sable{
+top: 302px;
+transition: .4s;
+height: 14px;
+width: 300px;
+position: absolute;
+background-color: #fff;
+z-index: -1;
+transform: scale(0);
+ box-shadow: 0 0 4px rgb(173, 15, 165),
+    0 0 7px rgb(173, 15, 165),
+    0 0 13px rgb(173, 15, 165),
+    0 0 17px rgb(173, 15, 165); 
+}
+img{
+    height: 215px;
+    width: 250px;
+    position: absolute;
+}
+.sable1{
+    left: 13em;
+    border-radius: 20px 0  0 20px;
+    transform-origin: right;
+}
+.sable2{
+    left: 45em;
+    border-radius: 0 20px 20px 0;
+    transform-origin: left;
+    transition-delay: .4s;
+}
+/**clase que agregaremos con javascript**/
+
+.efecto{
+    transform: scale(1);
+}
+
+h1{
+    font-size: 13em;
+    -webkit-text-stroke: 4px red;
+    font-family: fantasy;
+    position: absolute;
+    font-weight: bold;
+    left: 23%;
+    top: -70px;
+    letter-spacing: 20px;
+    text-shadow: 0 0 5px red,
+     0 0 9px red;
+}
